@@ -6,3 +6,6 @@ set -e
 
 # Run the Docker image as a container
 docker run -d -P 5000:5000 gatabaki/simple-python-flask-app
+
+
+
