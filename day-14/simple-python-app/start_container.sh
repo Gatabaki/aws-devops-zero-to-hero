@@ -2,7 +2,7 @@
 set -e
 
 # Pull the Docker image from Docker Hub
-echo
+ docker pull gatabaki/simple-python-flask-app
 
 # Run the Docker image as a container
-echo
+docker run -d -P 5000:5000 gatabaki/simple-python-flask-app
